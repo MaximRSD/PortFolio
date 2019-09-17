@@ -1,0 +1,129 @@
+body{
+	font-family: 'Shadows Into Light', cursive;	
+}
+
+.gridje{
+	text-decoration:none;
+	color:white;
+}
+
+.grid-container {
+  	display: grid;
+   	grid-template-columns:305px 100px 510px;
+  	padding: 10px;
+  	margin-left:25%;
+  	margin-top:5%;
+}
+
+.grid-comic {
+  	padding: 15px 10;
+  	font-size: 30px;
+  	text-align: center;
+  	float:center;
+  	height:275px;
+  	border-radius:5px;
+  	transition: transform .2s;
+  	width:200px;
+  	margin:auto;
+  	background-image: url('pictures/grey.jpg');
+  	background-size:contain;
+
+}
+.grid-penske {
+  	padding: 15px 10;
+  	font-size: 30px;
+  	text-align: center;
+  	float:center;
+  	height:275px;
+  	border-radius:5px;
+  	transition: transform .2s;
+  	width:200px;
+  	margin:auto;
+  	background-image: url('pictures/grey1.jpg');
+  	background-size:contain;
+}
+.grid-ucl {
+  	background-color: rgba(255, 255, 255, 0.8);
+  	padding: 15px 10;
+  	font-size: 30px;
+  	text-align: center;
+  	float:center;
+  	height:275px;
+  	border-radius:5px;
+  	transition: transform .2s;
+  	width:200px;
+  	margin:auto;
+  	background-image:url(pictures/grey2.jpg);
+ 	background-size: cover;
+}
+
+.grid-comic:hover{
+	transform:scale(1.075);
+	background-image: url('pictures/comic.jpg');
+	background-size: cover;
+	color:white;
+	cursor:pointer;
+}
+.grid-penske:hover{
+	transform:scale(1.075);
+	background-image: url('pictures/penske.jpg');
+	background-size: cover;
+	color:white;
+	cursor:pointer;
+}
+.grid-ucl:hover{
+	transform:scale(1.075);
+	background-image: url('pictures/ucl.jpg');
+	background-size:contain;
+	color:white;
+	cursor:pointer;
+}
+
+/* GRID ^ */
+
+.navbar{
+	list-style: none;
+	text-align:center;
+	font-size:25px;
+	margin-top:10px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color:black;
+	padding:25px;
+}
+.navbar a:hover{
+	color:darkred;
+}
+
+/* NAVIGATIE */
+
+.grid-container1{
+	width:42.5%;
+	text-align:center;
+	float:center;
+	margin:auto;
+	border-radius:5px;
+	height:250px;
+	background-image:url('pictures/grey3.jpg');
+	background-size: cover;
+	transition: transform .2s;
+	margin-top:10px;
+}
+.grid-duck{
+	font-size:30px;
+}
+.grid-container1:hover{
+	background-image:url('pictures/duck.jpg');
+	background-size: cover;
+	transform:scale(1.05);
+	cursor:pointer;
+}
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
