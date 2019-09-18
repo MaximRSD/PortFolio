@@ -1,10 +1,36 @@
 body{
-	font-family: 'Shadows Into Light', cursive;	
+	font-family: 'Shadows Into Light', cursive;
+  color:white;	
 }
+
+
+.navbar{
+  list-style: none;
+  text-align:center;
+  font-size:25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color:white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color:black;
+  padding:25px;
+}
+.navbar a:hover{
+  color:#fed136;
+}
+
+/* NAVIGATIE ^ */
 
 .gridje{
 	text-decoration:none;
-	color:white;
+  color:white;
 }
 
 .grid-three{
@@ -12,7 +38,6 @@ body{
   justify-content: center;
   text-align:center;
 }
-
 .grid-comic{
   width:200px;
   border-radius:5px;
@@ -23,8 +48,6 @@ body{
   margin-top:10px;
   display:inline-block;
   margin: 15px;
-
-
 }
 .grid-penske{
   width:200px;
@@ -56,7 +79,7 @@ body{
 	transform:scale(1.05);
 	background-image: url('pictures/comic.jpg');
 	background-size: cover;
-	color:white;
+	color:#fed136;
 	cursor:pointer;
 }
 .grid-penske:hover{
@@ -70,29 +93,12 @@ body{
 	transform:scale(1.05);
 	background-image: url('pictures/ucl.jpg');
 	background-size:contain;
-	color:white;
+	color:#fed136;
 	cursor:pointer;
 }
 
 /* GRID ^ */
 
-.navbar{
-	list-style: none;
-	text-align:center;
-	font-size:25px;
-	margin-top:10px;
-}
-
-.navbar a {
-	text-decoration: none;
-	color:black;
-	padding:25px;
-}
-.navbar a:hover{
-	color:#fed136;
-}
-
-/* NAVIGATIE */
 
 .grid-container1{
 	width:660px;
