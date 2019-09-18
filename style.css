@@ -7,72 +7,67 @@ body{
 	color:white;
 }
 
-.grid-container {
-  	display: grid;
-   	grid-template-columns:305px 100px 510px;
-  	padding: 10px;
-  	margin-left:25%;
-  	margin-top:5%;
+.grid-three{
+  display:flex;
+  justify-content: center;
+  text-align:center;
 }
 
-.grid-comic {
-  	padding: 15px 10;
-  	font-size: 30px;
-  	text-align: center;
-  	float:center;
-  	height:275px;
-  	border-radius:5px;
-  	transition: transform .2s;
-  	width:200px;
-  	margin:auto;
-  	background-image: url('pictures/grey.jpg');
-  	background-size: cover;
+.grid-comic{
+  width:200px;
+  border-radius:5px;
+  height:275px;
+  background-image:url('pictures/grey.jpg');
+  background-size: cover;
+  transition: transform .2s;
+  margin-top:10px;
+  display:inline-block;
+  margin: 15px;
+
 
 }
-.grid-penske {
-  	padding: 15px 10;
-  	font-size: 30px;
-  	text-align: center;
-  	float:center;
-  	height:275px;
-  	border-radius:5px;
-  	transition: transform .2s;
-  	width:200px;
-  	margin:auto;
-  	background-image: url('pictures/grey1.jpg');
-  	background-size: cover;
+.grid-penske{
+  width:200px;
+  border-radius:5px;
+  height:275px;
+  background-image:url('pictures/grey1.jpg');
+  background-size: cover;
+  transition: transform .2s;
+  margin-top:10px;
+  display:inline-block;
+  margin: 15px;
+
 }
-.grid-ucl {
-  	background-color: rgba(255, 255, 255, 0.8);
-  	padding: 15px 10;
-  	font-size: 30px;
-  	text-align: center;
-  	float:center;
-  	height:275px;
-  	border-radius:5px;
-  	transition: transform .2s;
-  	width:200px;
-  	margin:auto;
-  	background-image:url(pictures/grey2.jpg);
- 	background-size: cover;
+.grid-ucl{
+  width:200px;
+  text-align:center;
+  border-radius:5px;
+  height:275px;
+  background-image:url('pictures/grey2.jpg');
+  background-size: cover;
+  transition: transform .2s;
+  margin-top:10px;
+  display:inline-block;
+  margin: 15px;
+
 }
 
 .grid-comic:hover{
-	transform:scale(1.075);
+	transform:scale(1.05);
 	background-image: url('pictures/comic.jpg');
 	background-size: cover;
 	color:white;
 	cursor:pointer;
 }
 .grid-penske:hover{
-	transform:scale(1.075);
+	transform:scale(1.05);
 	background-image: url('pictures/penske.jpg');
 	background-size: cover;
 	color:white;
 	cursor:pointer;
 }
 .grid-ucl:hover{
-	transform:scale(1.075);
+	transform:scale(1.05);
 	background-image: url('pictures/ucl.jpg');
 	background-size:contain;
 	color:white;
@@ -94,13 +89,13 @@ body{
 	padding:25px;
 }
 .navbar a:hover{
-	color:darkred;
+	color:#fed136;
 }
 
 /* NAVIGATIE */
 
 .grid-container1{
-	width:42.5%;
+	width:660px;
 	text-align:center;
 	float:center;
 	margin:auto;
@@ -110,6 +105,7 @@ body{
 	background-size: cover;
 	transition: transform .2s;
 	margin-top:10px;
+  display:block;
 }
 .grid-duck{
 	font-size:30px;
@@ -121,9 +117,60 @@ body{
 	cursor:pointer;
 }
 
-@media print {
-    .pagebreak {
-        clear: both;
-        page-break-after: always;
-    }
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("pictures/grey4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.btn {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-decoration: none;
+  color:black;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
