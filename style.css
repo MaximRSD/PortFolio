@@ -26,7 +26,7 @@ body{
   	width:200px;
   	margin:auto;
   	background-image: url('pictures/grey.jpg');
-  	background-size:contain;
+  	background-size: cover;
 
 }
 .grid-penske {
@@ -40,7 +40,7 @@ body{
   	width:200px;
   	margin:auto;
   	background-image: url('pictures/grey1.jpg');
-  	background-size:contain;
+  	background-size: cover;
 }
 .grid-ucl {
   	background-color: rgba(255, 255, 255, 0.8);
