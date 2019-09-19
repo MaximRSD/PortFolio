@@ -33,6 +33,10 @@ body{
   color:white;
 }
 
+.gridje a:hover{
+  color:#fed136;
+}
+
 .grid-three{
   display:flex;
   justify-content: center;
@@ -40,7 +44,7 @@ body{
 }
 .grid-comic{
   width:200px;
-  border-radius:5px;
+  border-radius:1px;
   height:275px;
   background-image:url('pictures/grey.jpg');
   background-size: cover;
@@ -51,7 +55,7 @@ body{
 }
 .grid-penske{
   width:200px;
-  border-radius:5px;
+  border-radius:1px;
   height:275px;
   background-image:url('pictures/grey1.jpg');
   background-size: cover;
@@ -64,7 +68,7 @@ body{
 .grid-ucl{
   width:200px;
   text-align:center;
-  border-radius:5px;
+  border-radius:1px;
   height:275px;
   background-image:url('pictures/grey2.jpg');
   background-size: cover;
@@ -86,7 +90,7 @@ body{
 	transform:scale(1.05);
 	background-image: url('pictures/penske.jpg');
 	background-size: cover;
-	color:white;
+	color:#fed136;
 	cursor:pointer;
 }
 .grid-ucl:hover{
@@ -105,7 +109,7 @@ body{
 	text-align:center;
 	float:center;
 	margin:auto;
-	border-radius:5px;
+	border-radius:1px;
 	height:250px;
 	background-image:url('pictures/grey3.jpg');
 	background-size: cover;
@@ -126,7 +130,7 @@ body{
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("pictures/grey4.jpg");
+  background-image: url("pictures/deskgrey.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
