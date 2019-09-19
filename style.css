@@ -206,13 +206,14 @@ header.masthead .intro-text .intro-heading {
   font-size:20px;
 }
 .imgf{
-  left: 0px;
   bottom:0px;
   z-index: 1;
   opacity: 0.8;
   overflow:hidden;
-  min-width:280px;
+  min-width:28px;
   position: sticky;
+  width:300px;
+  float:right;
 }
 
 .aboutf{
@@ -220,7 +221,6 @@ header.masthead .intro-text .intro-heading {
   width:auto;
   float:right;
   margin:0px;
-  
 }
 
 .aboutimages{
